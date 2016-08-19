@@ -1,0 +1,119 @@
+
+/* reset */
+html, body, div, span, object,
+iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, abbr, address,
+cite, code, del, dfn, em, img, ins,
+kbd, q, samp, small, strong, sub,
+sup, var, b, i, dl, dt, dd, ol, ul,
+li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, figure,
+footer, header, hgroup, menu, nav,
+section, menu, time, mark, audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    }
+body {
+    font: 14px/1.428 "Nunito", Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #267e94;
+    text-align: left;
+    cursor: default;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: scroll;
+    }
+
+/* common */
+html,
+body {
+    height: 100%;
+    }
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+/* normalize */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-width: 0;
+    }
+caption, td, th {
+    vertical-align: top;
+    }
+dl, ul, ol {
+    
+    }
+    ul li,
+    ol li {
+        vertical-align: top;
+        list-style: none;
+        }
+a img {
+    border: 0;
+    }
+blockquote, q {
+    quotes: '' '';
+    }
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        }
+
+/* typography */
+ins {
+    text-decoration: underline;
+    }
+del {
+    text-decoration: line-through;
+    }
+em {
+    font-style: italic;
+    }
+strong {
+    font-weight: bold;
+    }
+small {
+    
+    }
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    font-size: 11px;
+    line-height: 1;
+    white-space: nowrap;
+    }
+    sup {
+        bottom: 1ex;
+        }
+    sub {
+        top: .5ex;
+        }
+i {
+    font-style: italic;
+    }
+b {
+    font-weight: bold;
+    }
+
+a:link, a:visited {
+    color: #4a71c9;
+    }
+a:hover {
+    color: #f66a5c;
+    }
+a:active {
+    color: #e74c3c;
+    }

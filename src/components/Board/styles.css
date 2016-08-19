@@ -1,0 +1,23 @@
+.board {
+    width: 702px;
+    height: 721px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-user-select: none; // TODO: setup autoprefixer
+    }
+    .board__cell {
+        position: absolute;
+        width: 131px;
+        height: 131px;
+        background-color: red;
+        }
+        .board__cell.view_x {
+            background: url('./img/x.png') no-repeat;
+            }
+        .board__cell.view_o {
+            background: url('./img/o.png') no-repeat;
+            }
+        .board__cell.position_1_1 {
+            top: 60px;
+            left: 85px;
+            }

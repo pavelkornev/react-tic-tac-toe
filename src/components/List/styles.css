@@ -1,0 +1,16 @@
+.list {
+    text-align: center;
+    font-size: 28px;
+    }
+    .list__item {
+        border-top: 1px solid #276a7b;
+        padding: 5px 0;
+        }
+        .list__item.view_title {
+            font-size: 125%;
+            color: #164b58;
+            border-top: none;
+            }
+        .list__item.view_empty {
+            color: #b3b3b3;
+            }

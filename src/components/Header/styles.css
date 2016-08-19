@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    font-size: 48px;
+    min-height: 70px;
+    margin-bottom: 50px;
+    }
+    .header__cell {
+        display: table-cell;
+        vertical-align: middle;
+        }
+        .header__cell.view_separator {
+            width: 80px;
+            background: url('./img/vs.png') no-repeat 50% 50%;
+            }
+        .header__cell.align_right {
+            text-align: right;
+            }
