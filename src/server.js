@@ -6,7 +6,7 @@ import defaultLayout from './layouts/Default';
 import configureStore from './store/configureStore';
 
 const app = express();
-const port = process.argv[2]; // FIXME: move to ENV or somewhere else
+const port = process.env.PORT || process.argv[2]; // FIXME: move to ENV or somewhere else
 
 app.use(express.static(__dirname + '/../build/assets'));
 
